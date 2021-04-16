@@ -1,0 +1,26 @@
+@charset "UTF-8";
+.origin{
+	width:200px;
+	height:134px;
+	border: 1px solid black;
+	float: left;
+	margin:40px; 
+	perspective:200px;	
+}
+.rotatex{
+	transition:1s;
+	transform:rotateX(45deg);
+}
+.rotatey{
+	transition:2s;
+	transform:rotateY(45deg);
+}
+.rotatez{
+	transition:5s;
+	transform:rotateZ(60deg);
+}
+.rotatexyz{
+	transition:4s;
+	transform:rotate3d(2.5, 1.2, -1.5, 45deg);
+}
+

@@ -1,0 +1,27 @@
+@charset "UTF-8";
+.origin{
+	width:200px;
+	height:134px;
+	border: 1px solid black;
+	float: left;
+	margin:40px; 
+	
+}
+.scalex{
+	transition:1s;
+}
+.scalex:hover {
+	transform:scaleX(1.2);
+}
+.scaley{
+	transition:2s;
+}
+.scaley:hover {
+	transform:scaleY(1.5);
+}
+.scale{
+	transition:5s;
+}
+.scale:hover {
+	transform:scale(0.7);
+}

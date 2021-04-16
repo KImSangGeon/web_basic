@@ -1,0 +1,17 @@
+@charset "UTF-8";
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+body{
+	font-family: 'Nanum Pen Script', cursive;	
+}
+
+
+h2{
+	color: blue;
+}
+p{
+	font-size: 12px;
+	margin-left: 20px;
+}
+</style>

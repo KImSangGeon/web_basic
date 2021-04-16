@@ -1,0 +1,35 @@
+@charset "UTF-8";
+.tab-inner{
+	width: 400px;
+}
+.btn span{
+	background-color: #ddd;
+	width: 120px;
+	display: inline-block;
+	text-align: center;
+	padding: 5px;
+	border: 1px solid black;
+	border-radius: 5px 5px 0 0;
+	cursor: pointer;  /* a tag가 아닌데 손가락이 나오게 함 */
+	margin-right: -7px;  /*  마진 붙이기 */
+	border-bottom: none;
+}
+.btn span:first-child {
+	background-color: #fff;
+}
+.btn span:last-child{
+	color: red;	
+}
+.tab{
+	border: 1px solid black;
+}
+.tab a{
+	display: block;
+	color: #333;
+	text-decoration: none;
+	padding: 5px;
+	border-bottom: 1px solid #000;
+}
+.tab a:last-child {
+	border-bottom: none;
+}

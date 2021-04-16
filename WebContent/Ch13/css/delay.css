@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+.box {
+		font-size:12px;
+		position:relative;
+		width:60px;
+		height:60px;
+		margin-bottom:10px;
+		background-color:#eee;
+	}
+.box:hover{
+	transform:rotate(720deg);
+		margin-left:420px;
+}
+#no-delay
+{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	border: 1px solid black;
+transition-duration: 3s;	
+}
+#delay{
+	width: 100px;
+	height: 100px;
+	background-color: gold;
+	border: 1px solid black;
+	transition-duration:3s;
+	transition-delay:1s;
+}

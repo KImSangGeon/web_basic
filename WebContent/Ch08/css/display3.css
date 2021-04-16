@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+nav{
+	width: 100%;
+	height: 60px;
+	background-color: #069;
+	}
+
+nav ul{
+	list-style-type: none;
+}
+
+nav ul li{
+	margin: 20px;
+	width: 100px;
+	display: inline-block;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+nav ul li a:hover {
+	background-color: rgb(196, 196,196);
+	color: yellow;
+}
+

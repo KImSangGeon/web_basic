@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+		<meta charset="UTF-8">
+		<title>로그인 정보</title>
+		
+		<style type="text/css">
+			ul{
+				list-style: none;
+			}
+			li label{
+			width: 150px;
+			float: left; 				
+			}
+			fieldset {
+			margin: 20px;
+			}
+			.subm{
+				display: block;
+				background-color: #fff;
+				border: 1px solid  #dedede; /*  보더 테두리 사라지는거 */
+				cursor: pointer;
+				padding: 5px 10px 6px 7px;
+			}
+			.subm img{
+				border: 0;
+				padding: 0;
+				width: 16px;
+				height: 16px;		
+			}
+			.subm:hover{
+				background-color: #e6efc2;
+				border: 1px solid #c6d880;
+				color: #529215;
+			}
+			
+		
+		</style>
+</head>
+<body>
+		<form action="selectServlet" method = "get">
+		<h3>여름방학 특강 신청</h3>
+		<fieldset>
+		<legend>수강 신청인</legend>
+		<ul>
+			<li>
+				<label for = "user-id">아이디</label>
+				<input type = "text" id ="user-id" name= "id"autofocus required >
+			</li>
+			<li>
+				<label for = "passwd">비밀번호</label>
+				<input type = "password" id= "passwd" value = "1234"  name = "passwd" readonly>
+			</li>
+			<li>
+				<label for  = "name" >이름</label>
+				<input type = "text" id = "name" name = "name">
+			</li>			
+			<li>
+				<label for = "file">첨부 파일</label>
+				<input type = "file" id = "file" name= "file">
+			</li>
+			<li>
+				<label for = "color">색 선택</label>
+				<input type = "color" value = "#00aa00" name = "color"> 
+			</li>
+			<li>
+				<label  class ="reg" for = "classc">학과선택</label>	
+				<select  id ="classc" name= "classc" >
+				<optgroup label="공과대학">
+					<option value = "archi">건축공학과</option>
+					<option value = "mechanic">기계공학과</option>
+					<option value = "indust">산업공학과</option>
+					<option value = "elec">전기전자공학과</option>
+					<option value = "computer" selected>컴퓨터공학과</option>
+					<option value = "chemical">화학공학과</option>			
+				</optgroup>	
+				<optgroup label="인문대학">
+					<option value = "history">사학부</option>
+					<option value = "lang">어문학부</option>
+					<option value = "philo">철학</option>
+				</optgroup>
+				</select>
+			</li>
+			<li>
+				<label>관심분야</label>
+				<input type ="text" id= "subject" list = "choices" name = "subject">
+				<datalist id = "choices">
+					<option value = "grammar" label ="문법"></option>
+					<option value = "voca" label = "어휘"></option>
+					<option value = "speaking" label = "회화"></option>
+					<option value = "listening" label = "리스닝"></option>
+					<option value = "news" label = "뉴스청취"></option>
+				</datalist>				
+			</ul>
+			
+			
+			<fieldset>
+				<legend>하고싶은 말</legend>
+				<textarea name = "intro" cols ="60" rows ="5">
+Hello, Everyone 				
+				</textarea>			
+			</fieldset>	
+			<br>
+			<button type = "submit" class="subm">
+			<img src ="images/tick.png" alt= " ">전송</button>
+		</fieldset>
+		</form>
+</body>
+</html>

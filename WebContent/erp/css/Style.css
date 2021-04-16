@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+nav ul{
+	list-style-type: none;
+}
+nav ul li{
+	display: inline-block;
+	margin: 20px;
+	width: 100px;
+}
+nav ul li a{
+	color: black;
+	text-decoration: none;
+}

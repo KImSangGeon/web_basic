@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+.box{
+			position:absolute;
+			left:50px;
+			top:70px;
+			width:100px;
+			height:60px;
+			background:#fff;
+			border:2px solid green;
+			text-align:center;                       /* height = line-height 같게 하면수직 센터 */
+			line-height:60px;
+		}
+		.box:hover {			
+			transform: rotate(15deg);
+		}

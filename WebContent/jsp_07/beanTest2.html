@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+			<meta charset="UTF-8">
+			<title>Insert title here</title>
+			
+			<style type="text/css">
+			#formArea{
+				margin: auto;
+				width: 400px;
+				border:  1px solid black;				
+			}
+			h1,fieldset{
+				text-align: center;
+				margin: auto;
+			}
+			
+			</style>
+</head>
+<body>
+			<section id = "formArea">
+			<h1>property ="*"테스트</h1>
+			<form action="beanTest4.jsp" method = "post">
+			
+			<fieldset>
+			<label for = "stdNo">학생번호 : </label>
+			<input type="text" name ="stdNo" id = "stdNo"/><br>
+			<label for = "stdName" >학생이름 : </label>
+			<input type="text" name = "stdName" id = stdName/><br>
+			<label for = "Kor">국어성적 : </label>
+			<input type = "text" name = "Kor" id ="Kor"/><br>
+			<label for = "Eng">영어성적 : </label>
+			<input type = "text" name = "Eng" id = "Eng"/><br>
+			<label for = "Math">수학성적 : </label>
+			<input type="text" name = "Math" id = "Math"/><br>
+			
+			<input type = "submit" value = "출력">			
+			</fieldset>
+			</form>
+			</section>
+
+</body>
+</html>

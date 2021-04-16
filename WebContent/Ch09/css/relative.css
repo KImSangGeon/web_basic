@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+.box1{
+	width:100px;
+	float:left;
+	margin-right:10px;
+	padding:20px;	
+	background: #ffd800;
+}
+.box2{
+	position:relative;
+	left:-50px;
+	top:30px;
+	width:300px;
+	padding:20px;
+	float:left;	
+	background: #0094ff;
+}

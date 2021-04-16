@@ -1,0 +1,22 @@
+@charset "UTF-8";
+div{
+	border: 1px solid gray;
+}
+ul li{
+	display: inline-block;
+	list-style: none;
+	border: 1px solid black;
+
+}
+ul li a{
+	text-decoration: none;
+		color: #0080ff;
+}
+ul.navi li:first-child {
+	border-top-left-radius: 1em;
+	border-bottom-left-radius: 1em;
+}
+ul.navi li:last-child{
+	border-top-right-radius: 1em;
+	border-bottom-right-radius: 1em;
+}

@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+*{
+	margin:  20px auto;
+	color:blue;	
+}
+#container{
+	width: 500px;
+	padding: 15px;
+	border: 1px dotted gray;	
+}
+h2{
+	color: brown !important;
+}

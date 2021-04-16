@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+li{
+	list-style: none;
+	display: inline-block;
+	width: 300px;	
+}
+a[title ^= "eng"]{
+	background: url("../images/us.png") no-repeat left center;
+	padding: 5px 25px;
+}
+a[title ^= "jap"]{
+	background: url("../images/jp.png") no-repeat left center;
+	padding: 5px 25px;
+}
+a[title ^= "chi"]{
+	background: url("../images/ch.png") no-repeat left center;
+	padding: 5px 25px;
+}

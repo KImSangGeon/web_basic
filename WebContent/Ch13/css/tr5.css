@@ -1,0 +1,10 @@
+@charset "UTF-8";
+.box{
+	width: 100px;
+	height: 100px;
+	background: green;
+	transition:background 3s;	
+}
+.box:hover {
+	background: yellow;
+}

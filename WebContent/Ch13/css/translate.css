@@ -1,0 +1,27 @@
+@charset "UTF-8";
+.origin{
+	width:200px;
+	height:134px;
+	border: 1px solid black;
+	float: left;
+	margin:40px; 
+	
+}
+.movex{
+	transition:2s;
+}
+.movex:hover {
+	transform:translateX(10px);
+}
+.movey{
+	transition:1s;
+}
+.movey:hover {
+	transform: translateY(10px);
+}
+.movexy{
+	transition:3s;
+}
+.movexy:hover {
+	transform: translate(30px, 20px);
+}
